@@ -23,10 +23,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('signup', SignUpView.as_view()),
     path('token', obtain_auth_token),
-    path('createprofile',ProfileView.as_view()),
+    path('create-profile',ProfileView.as_view()),
     path('profile/<int:pk>',ProfileRetrieveView.as_view()),
     # path('updprofile/<int:pk>',ProfileUpdateView.as_view()),
     path('user/<int:pk>',UserRetrievView.as_view()),
-    path('food',FoodLogCreatView.as_view()),
-    path('food/<int:pk>',FoodLogRetrieveView.as_view())
+    path('foodlog',FoodLogCreatView.as_view()),
+    path('foodlog/<int:pk>',FoodLogRetrieveView.as_view())
 ]
