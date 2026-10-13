@@ -37,8 +37,6 @@ class UserProfile(models.Model):
 
 class FoodLog(models.Model):
     name=models.CharField(max_length=200,null=True)
-
-
     MEAL_TYPE_OPTIONS=(
         ('Breakfast','Breakfast'),
         ('Lunch','Lunch'),
