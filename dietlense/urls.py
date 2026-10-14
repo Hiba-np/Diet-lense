@@ -28,6 +28,10 @@ urlpatterns = [
     # path('updprofile/<int:pk>',ProfileUpdateView.as_view()),
     path('user/<int:pk>',UserRetrievView.as_view()),
     path('foodlog',FoodLogCreatView.as_view()),
+<<<<<<< HEAD
     path('foodlog/<int:pk>',FoodLogRetrieveView.as_view()),
     path('summary',DietSummaryView.as_view())
+=======
+    path('foodlog/<int:pk>',FoodLogRetrieveView.as_view())
+>>>>>>> 836b8fcaafe20c26e69e7dfe277720682a6e8cbe
 ]
